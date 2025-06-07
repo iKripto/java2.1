@@ -1,18 +1,45 @@
-## Getting Started
+<h1>Matriz</h1>
+Você chama a classe Matriz, preenche e depois o programa verifica o maior e menor elemento.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+---
+<h1>Linguagem usada</h1>
+<p>- Java 24.0.1</p>
+<p>- Java JDK 17</p>
 
-## Folder Structure
+---
+<h1>Requisitos</h1>
+<p>- Java JDK 17</p>
+<p>- Terminal ou IDE Java</p>
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+<h1>Como executar</h1>
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. **Abra o terminal e navegue até a pasta `src/` do projeto:**
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+```bash
+cd src
+```
 
-## Dependency Management
+2. **Compile os arquivos Java:**
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```bash
+javac App.java Matriz.java
+```
+
+3. **Execute o programa:**
+
+```bash
+java App
+```
+
+---
+
+<p>Este projeto aplica os principais conceitos da Programação Orientada a Objetos:
+
+- **Classe**: As operações são feitas na classe principal.
+- **Objeto**: instanciado em `App.java`
+- **Encapsulamento**: métodos organizados na classe principal.
+- **Abstração**: operações ocultas por métodos
+
+---
